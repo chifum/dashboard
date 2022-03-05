@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.container {
+  /* width: 100%; */
+  /* height: 600px; */
+  display: flex;
+  flex: 1 1 0;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.page-box {
+  /* margin: 5px; */
+  min-width: 300px;
+  flex: 1 1 0;
+}
+.left-Page {
+  flex: 1 1 0;
+  border: 1px solid yellowgreen;
+}
+.right-Page {
+  flex: 5 1 0;
+  border: 1px solid yellow;
+}
+/* .mainSideBar {
+  width: 20%;
+  max-height: 500px;
+  border: 1px solid red;
+  height: 20px;
+  display: flex;
+  justify-content: start;
+  padding-left: 20px;
+  align-items: center;
+}
+.mainPage {
+  width: 80%;
+  height: 100%;
+  border: 1px solid green;
+  height: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 20px;
+} */
+/* nav {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 0;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f4f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+} */
